@@ -1,0 +1,1 @@
+docker run -ti -d --name web -v /usr/local/container/data:/usr/local/mysql/data -v /var/www:/var/www -v /usr/local/container/nginx_conf:/usr/local/nginx/conf -p 80:80 -p 3306:3306 boosen/lnmp /bin/bash
